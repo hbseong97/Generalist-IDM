@@ -17,10 +17,10 @@
 $ ocap my-session.mcap
 
 # 2. Process to training format
-$ python scripts/01_raw_events_to_event_dataset.py --train-dir ./
+$ python projects/owa-data/scripts/01_raw_events_to_event_dataset.py --train-dir <MCAP_DIR> --output-dir <EVENT_DATASET_DIR>
 
-# 3. Train your model
-$ python train.py --dataset ./event-dataset
+# 3. Train your model (see agent README for details)
+$ cd projects/agent && cat README.md
 ```
 
 <!-- END-SYNC: quick-start-3-steps -->
