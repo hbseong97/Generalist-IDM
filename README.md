@@ -233,22 +233,6 @@ Powered by the powerful Gstreamer and Windows API, our implementation is **6x** 
 
 Not only does `owa.env.gst` **achieve higher FPS**, but it also maintains **lower CPU/GPU usage**, making it the ideal choice for screen recording. Same applies for `ocap`, since it internally imports `owa.env.gst`.
 
-📊 **See detailed benchmarks and methodology in the documentation**
-
-### Desktop Recording & Dataset Sharing
-
-Record your desktop usage data and share with the community:
-
-```bash
-# Install GStreamer dependencies (for video recording) and ocap
-conda install gstreamer-bundle && pip install ocap
-
-# Record desktop activity (includes video, audio, events)
-ocap my-session
-
-```
-
-
 
 ### Data Format Preview
 
@@ -301,19 +285,6 @@ owl messages show desktop/KeyboardEvent # View schemas
 ```
 
 > **💡 Complete CLI Reference**: For detailed information about all CLI commands and options, see the CLI Tools documentation.
-
-## Installation
-
-### Quick Start
-
-```bash
-# Install all OWA packages
-pip install owa
-
-# For video recording/processing, install GStreamer dependencies first:
-conda install gstreamer-bundle
-pip install owa
-```
 
 > 💡 **When do you need GStreamer?**
 > - **Video recording** with `ocap` desktop recorder

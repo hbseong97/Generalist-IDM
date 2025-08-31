@@ -4,11 +4,6 @@ Core message definitions for Open World Agents (OWA).
 
 This package provides the standard message types used throughout the OWA ecosystem, organized by domain and registered through Python entry points for automatic discovery.
 
-## Installation
-
-```bash
-pip install owa-msgs
-```
 
 ## Usage
 
